@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Mój Blog</title>
-    <!-- Tutaj importujemy style -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karta Gracza</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main class="player-card">
+    <header class="card-header">
+      <h1>🎮 Karta Gracza</h1>
+      <p>Nick: <span class="highlight">Filipok3101</span></p>
+    </header>
+    <section class="card-section bio">
+      <h2>📖 Bio</h2>
+      <p>Lvl: <strong>7</strong>/50</p>
+      <p>Klasa: <strong>Drwal</strong></p>
+      <p>Gildia: <strong>Pixelowi Wojownicy</strong></p>
+    </section>
+    <section class="card-section equipment">
+      <h2>⚔️ Ekwipunek</h2>
+      <ul>
+        <li>Drewniana Siekiera +5</li>
+        <li>Pochodnia</li>
+        <li>Drewniany Łuk +3</li>
+        <li>Złote Strzały</li>
+      </ul>
+    </section>
+    <section class="card-section achievements">
+      <h2>🏆 Osiągnięcia</h2>
+      <ul>
+        <li>🌲Pierwsze ścięte drzewo</li>
+        <li>Pierwsza zwierzyna</li>
+      </ul>
+    </section>
+    <footer clas="card-footer">
+      <p>Ostatnia aktywność: <time datetime="2026-05-30">30 maja 2026</time></p>     
+    </footer>
 
-    <div id="naglowek">
-        <h1>Mój Blog</h1>
-        <p>Pasje, technologia i codzienne myśli</p>
-    </div>
-
-    <div id="baner">
-        <h2>Witaj na moim blogu!</h2>
-        <p>Tutaj piszę o wszystkim co mnie fascynuje.</p>
-    </div>
-
-    <div id="tresc">
-        <div class="wpis">
-            <p class="autor">👤 Marek Kowalski</p>
-            <p class="data">🕐 3 kwietnia 2026 · 🌍 Publiczny</p>
-            <p class="tekst">Właśnie wróciłem z konferencji o AI. Niesamowite rzeczy się dzieją! 🤖</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-        <div class="wpis">
-            <p class="autor">👤 Anna Nowak</p>
-            <p class="data">🕐 2 kwietnia 2026 · 🔒 Tylko znajomi</p>
-            <p class="tekst">Dziś nauczyłam się CSS. Moja strona wygląda teraz jak prawdziwy blog! 🎨</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-        <div class="wpis">
-            <p class="autor">👤 Piotrek Dev</p>
-            <p class="data">🕐 1 kwietnia 2026 · 🌍 Publiczny</p>
-            <p class="tekst">Kto jeszcze debuguje CSS o północy? 😅 Jeden piksel mnie pokonał...</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-    </div>
-
+  </main>
 </body>
 </html>
